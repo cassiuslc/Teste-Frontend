@@ -39,18 +39,11 @@
             Login
             </v-btn>
 
-            <v-card-text class="text-center">
-                <a
-                class="text-roxinha text-decoration-none"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-                >
-                <NuxtLink to="/register" class="font-weight-bold text-roxinho"
-                  >Registre-se aqui</NuxtLink>
+            <div class="mt-3 mb-2 text-center">
+                <NuxtLink to="/register" class="font-semibold text-roxinha"
+                    >Registre-se aqui</NuxtLink>
                 <v-icon icon="mdi-chevron-right"></v-icon>
-                </a>
-            </v-card-text>
+            </div>
         </v-form>
 </template>
 

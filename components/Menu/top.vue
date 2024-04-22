@@ -1,11 +1,11 @@
 <template>
     <div>
-      <v-toolbar class="bg-white shadow-md rounded-lg">
+      <v-toolbar class="bg-white rounded-lg shadow-md">
         <v-app-bar-nav-icon @click="drawer = !drawer" class="text-gray-800"></v-app-bar-nav-icon>
   
         <v-spacer></v-spacer>
 
-        <div class="flex bg-white shadow-md hidden md:block">
+        <div class="flex hidden bg-white shadow-md md:block">
           <v-row no-gutters align="center" justify="center">
           <v-btn to="/dashboard" uppercase="false" text>
           <v-list-item-title class="text-gray-800">Home</v-list-item-title>
@@ -31,7 +31,7 @@
           <v-menu>
             <template #activator="{ props }">
               <v-avatar v-bind="props">
-                <v-img cover src="https://cdn.vuetifyjs.com/images/john.jpg"></v-img>
+                <v-img cover src="/user.jpeg"></v-img>
               </v-avatar>
               </template>
               <v-card min-width="200px">
@@ -82,7 +82,7 @@
                         <h2>teste@example.com</h2>
                   
                                 <v-btn
-                                      class="mb-3 mt-3 gradient primary"
+                                      class="mt-3 mb-3 gradient primary"
                                       color="roxinha"
                                       @click="logout"
                                       variant="tonal"
