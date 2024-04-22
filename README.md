@@ -1,5 +1,8 @@
 # Nuxt 3 Minimal Starter
 
+![image](https://github.com/cassiuslc/Teste-Frontend/assets/51304545/1f48754c-6952-40bc-9d38-4a35b481fbe7)
+
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
